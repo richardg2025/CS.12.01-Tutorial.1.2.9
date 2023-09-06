@@ -34,6 +34,7 @@ The following examples illustrate two different WordPairList objects.
 Example 1
 
 String[] wordNums = {“one”, “two”, “three”};
+
 WordPairList exampleOne = new WordPairList(wordNums);
 
 After the code segment has executed, the allPairs instance variable of exampleOne will contain the following WordPair objects in some order.
@@ -43,6 +44,7 @@ After the code segment has executed, the allPairs instance variable of exampleOn
 Example 2
 
 String[] phrase = {“the”, “more”, “the”, “merrier”};
+
 WordPairList exampleTwo = new WordPairList(phrase);
 
 After the code segment has executed, the allPairs instance variable of exampleTwo will contain the following WordPair objects in some order.
@@ -86,6 +88,7 @@ b) Write the WordPairList method numMatches. This method returns the number of W
 For example, the following code segment creates a WordPairList object.
 
 String[] moreWords = {“the”, “red”, “fox”, “the”, “red”};
+
 WordPairList exampleThree = new WordPairList(moreWords);
 
 After the code segment has executed, the allPairs instance variable of exampleThree will contain the following WordPair objects in some order. 
